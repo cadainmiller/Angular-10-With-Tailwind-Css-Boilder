@@ -117,6 +117,9 @@
               "devServerTarget": "Angular-With-Tailwind-V5:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@jefiozie/ngx-aws-deploy:deploy"
         }
       }
     }
